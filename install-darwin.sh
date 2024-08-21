@@ -1,4 +1,5 @@
 #/bin/bash
+set -e
 
 # https://github.com/Homebrew/brew
 if [ ! $(which brew) ]
