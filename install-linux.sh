@@ -17,6 +17,9 @@ sudo apt install wget
 # https://gnupg.org/
 sudo apt install gpg
 
+# https://www.gnu.org/software/stow/
+sudo apt install stow
+
 # https://manpages.debian.org/unstable/apt/apt-transport-https.1.en.html
 sudo apt install apt-transport-https
 
