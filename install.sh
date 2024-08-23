@@ -10,7 +10,9 @@ fi
 
 # Antigen: The plugin manager for zsh.
 # https://github.com/zsh-users/antigen
-curl -L git.io/antigen > "${HOME}/antigen.zsh"
+if [[ ! -f "${HOME}/antigen.zsh" ]]; then
+    curl -L git.io/antigen > "${HOME}/antigen.zsh"
+fi
 
 # Platform specific installer
 if [[ -f "install-${platform}.sh" ]]
