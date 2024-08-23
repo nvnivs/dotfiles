@@ -7,20 +7,17 @@ A dotfiles repository to manage the installation of tools and configuration.
 Run the following commands to setup on your local machine. This repository must be checked out into you home directory.
 
 ```bash
-    # Go to home directory
+    # Switch to home
     cd ~
 
-    # Clone this repo
+    # Clone repo
     git clone https://github.com/nvnivs/dotfiles.git
 
-    # Change to checked out directory
+    # Switch to repo
     cd ~/dotfiles
 
-    # Execute installer
-    ./install.sh
-
-    # Execute configure
-    ./configure.sh
+    # Execute dot.sh
+    ./dot.sh
 ```
 
 ## Customize `.zshrc`
