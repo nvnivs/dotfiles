@@ -8,6 +8,10 @@ if [[ ! -d ~/.oh-my-zsh ]]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
+# Antigen: The plugin manager for zsh.
+# https://github.com/zsh-users/antigen
+curl -L git.io/antigen > "${HOME}/antigen.zsh"
+
 # Platform specific installer
 if [[ -f "install-${platform}.sh" ]]
     then ./"install-${platform}.sh"
