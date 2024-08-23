@@ -1,10 +1,10 @@
-#/bin/bash
+#!/bin/bash
 set -e
 
 # https://github.com/sharkdp/bat
 sudo apt install bat
 mkdir -p ~/.local/bin
-if [ ! -f /usr/local/bin/bat ]; then
+if [[ ! -f /usr/local/bin/bat ]]; then
     sudo ln -s /usr/bin/batcat /usr/local/bin/bat
 fi
 
