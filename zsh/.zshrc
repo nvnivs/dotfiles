@@ -16,7 +16,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="robbyrussell"
 
 # Load the theme.
-antigen theme robbyrussell
+antigen theme gnzh
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -82,11 +82,6 @@ CASE_SENSITIVE="true"
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
-#plugins=(
-#	git
-#	zsh-autocomplete
-#	zsh-autosuggestions	
-#ye)
 
 # Load bundles from external repos.
 antigen bundle marlonrichert/zsh-autocomplete@main
