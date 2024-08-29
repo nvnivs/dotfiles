@@ -2,7 +2,7 @@
 set -e
 
 # https://github.com/Homebrew/brew
-if [[ ! $(which brew) ]]
+if ! command -v brew >&2
     then /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     else brew update
 fi
