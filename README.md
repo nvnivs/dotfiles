@@ -11,10 +11,10 @@ Run the following commands to setup on your local machine. This repository must 
     cd ~
 
     # Clone repo
-    git clone https://github.com/nvnivs/dotfiles.git
+    git clone https://github.com/nvnivs/dotfiles.git .dotfiles
 
     # Switch to repo
-    cd ~/dotfiles
+    cd ~/.dotfiles
 
     # Execute dot.sh
     ./dot.sh
