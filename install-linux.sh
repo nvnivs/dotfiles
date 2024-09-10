@@ -33,4 +33,8 @@ sudo apt update
 sudo apt install code
 
 # https://github.com/casey/just
+rm -rf ~/.local/bin/just
 curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin
+
+# https://docs.dagger.io/
+curl -fsSL https://dl.dagger.io/dagger/install.sh | BIN_DIR=$HOME/.local/bin sh

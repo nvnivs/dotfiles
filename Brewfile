@@ -18,3 +18,6 @@ cask "iterm2"
 # https://github.com/microsoft/vscode
 cask "visual-studio-code"
 vscode "ms-vscode-remote.remote-containers"
+
+# https://docs.dagger.io/
+brew "dagger/tap/dagger"
