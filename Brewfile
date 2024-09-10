@@ -9,6 +9,9 @@ brew "jq"
 # https://www.gnu.org/software/stow/
 brew "stow"
 
+# https://github.com/casey/just
+brew "just"
+
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 

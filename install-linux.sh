@@ -31,3 +31,6 @@ echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft
 rm -f /tmp/packages.microsoft.gpg
 sudo apt update
 sudo apt install code
+
+# https://github.com/casey/just
+curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin
