@@ -1,27 +1,33 @@
 #!/bin/bash
 set -e
 
+# https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+sudo apt install -y zsh
+
+# https://www.vim.org/
+sudo apt install -y vim
+
 # https://github.com/sharkdp/bat
-sudo apt install bat
+sudo apt install -y bat
 mkdir -p ~/.local/bin
 if [[ ! -f /usr/local/bin/bat ]]; then
     sudo ln -s /usr/bin/batcat /usr/local/bin/bat
 fi
 
 # https://github.com/jqlang/jq
-sudo apt install jq
+sudo apt install -y jq
 
 # https://www.gnu.org/software/wget/
-sudo apt install wget
+sudo apt install -y wget
 
 # https://gnupg.org/
-sudo apt install gpg
+sudo apt install -y gpg
 
 # https://www.gnu.org/software/stow/
-sudo apt install stow
+sudo apt install -y stow
 
 # https://manpages.debian.org/unstable/apt/apt-transport-https.1.en.html
-sudo apt install apt-transport-https
+sudo apt install -y apt-transport-https
 
 # https://github.com/microsoft/vscode
 # needs: wget gpg apt-transport-https
