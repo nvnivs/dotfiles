@@ -1,5 +1,11 @@
 tap "homebrew/bundle"
 
+# https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+brew "zsh"
+
+# https://www.vim.org/
+brew "vim"
+
 # https://github.com/sharkdp/bat
 brew "bat"
 
@@ -18,6 +24,9 @@ cask "iterm2"
 # https://github.com/microsoft/vscode
 cask "visual-studio-code"
 vscode "ms-vscode-remote.remote-containers"
+
+# https://rancherdesktop.io/
+cask "rancher"
 
 # https://docs.dagger.io/
 brew "dagger/tap/dagger"
