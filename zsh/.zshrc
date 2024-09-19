@@ -115,6 +115,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cat="batcat"
 
 if [[ -f "$HOME/.zshrc_custom" ]]; then source "$HOME/.zshrc_custom"; fi
 
