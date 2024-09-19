@@ -9,10 +9,6 @@ sudo apt install -y vim
 
 # https://github.com/sharkdp/bat
 sudo apt install -y bat
-mkdir -p ~/.local/bin
-if [[ ! -f /usr/local/bin/bat ]]; then
-    sudo ln -s /usr/bin/batcat /usr/local/bin/bat
-fi
 
 # https://github.com/jqlang/jq
 sudo apt install -y jq
@@ -25,6 +21,9 @@ sudo apt install -y gpg
 
 # https://www.gnu.org/software/stow/
 sudo apt install -y stow
+
+# https://htop.dev/
+sudo apt install -y htop
 
 # https://manpages.debian.org/unstable/apt/apt-transport-https.1.en.html
 sudo apt install -y apt-transport-https

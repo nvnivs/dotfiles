@@ -15,6 +15,9 @@ brew "jq"
 # https://www.gnu.org/software/stow/
 brew "stow"
 
+# https://htop.dev/
+brew "htop"
+
 # https://github.com/casey/just
 brew "just"
 
