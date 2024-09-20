@@ -115,7 +115,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cat="batcat"
+
+if [[ $(uname | tr '[:upper:]' '[:lower:]') == 'linux' ]]
+    then alias cat="batcat"
+    else alias cat="bat"
+fi
 alias top="htop"
 
 if [[ -f "$HOME/.zshrc_custom" ]]; then source "$HOME/.zshrc_custom"; fi
