@@ -32,6 +32,10 @@ sudo apt install -y apt-transport-https
 # https://github.com/junegunn/fzf
 sudo apt install -y fzf
 
+# yq: A portable command-line YAML, JSON, XML, CSV, TOML and properties processor
+# https://github.com/mikefarah/yq
+sudo apt install -y yq
+
 # https://www.digitalocean.com/community/tutorials/install-chrome-on-linux-mint
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"

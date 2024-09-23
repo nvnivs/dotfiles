@@ -25,6 +25,10 @@ brew "just"
 # https://github.com/junegunn/fzf
 brew "fzf"
 
+# yq: A portable command-line YAML, JSON, XML, CSV, TOML and properties processor
+# https://github.com/mikefarah/yq
+brew "yq"
+
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 
