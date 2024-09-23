@@ -29,6 +29,10 @@ brew "fzf"
 # https://github.com/mikefarah/yq
 brew "yq"
 
+# xq: Command-line XML and HTML beautifier and content extractor
+# https://github.com/sibprogrammer/xq
+brew "xq"
+
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 

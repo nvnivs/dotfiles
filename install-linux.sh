@@ -36,6 +36,10 @@ sudo apt install -y fzf
 # https://github.com/mikefarah/yq
 sudo apt install -y yq
 
+# xq: Command-line XML and HTML beautifier and content extractor
+# https://github.com/sibprogrammer/xq
+sudo apt install -y xq
+
 # https://www.digitalocean.com/community/tutorials/install-chrome-on-linux-mint
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
