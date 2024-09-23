@@ -21,6 +21,10 @@ brew "htop"
 # https://github.com/casey/just
 brew "just"
 
+# fzf: A command-line fuzzy finder
+# https://github.com/junegunn/fzf
+brew "fzf"
+
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 
