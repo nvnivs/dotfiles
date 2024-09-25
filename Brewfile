@@ -33,6 +33,10 @@ brew "yq"
 # https://github.com/sibprogrammer/xq
 brew "xq"
 
+# pre-commit: A framework for managing and maintaining multi-language pre-commit hooks.
+# https://pre-commit.com/
+brew "pre-commit"
+
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 

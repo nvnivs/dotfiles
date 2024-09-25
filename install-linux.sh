@@ -40,6 +40,10 @@ sudo apt install -y yq
 # https://github.com/sibprogrammer/xq
 sudo apt install -y xq
 
+# pre-commit: A framework for managing and maintaining multi-language pre-commit hooks.
+# https://pre-commit.com/
+sudo apt install -y pre-commit
+
 # https://www.digitalocean.com/community/tutorials/install-chrome-on-linux-mint
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
