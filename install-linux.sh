@@ -44,6 +44,12 @@ sudo apt install -y xq
 # https://pre-commit.com/
 sudo apt install -y pre-commit
 
+# golang
+sudo apt install build-essential -y
+sudo add-apt-repository ppa:longsleep/golang-backports -y
+sudo apt update
+sudo apt install golang-go -y
+
 # https://www.digitalocean.com/community/tutorials/install-chrome-on-linux-mint
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
@@ -64,7 +70,7 @@ sudo apt install -y code
 curl -s https://download.opensuse.org/repositories/isv:/Rancher:/stable/deb/Release.key | gpg --dearmor | sudo dd status=none of=/usr/share/keyrings/isv-rancher-stable-archive-keyring.gpg
 echo 'deb [signed-by=/usr/share/keyrings/isv-rancher-stable-archive-keyring.gpg] https://download.opensuse.org/repositories/isv:/Rancher:/stable/deb/ ./' | sudo dd status=none of=/etc/apt/sources.list.d/isv-rancher-stable.list
 sudo apt update
-sudo apt install rancher-desktop
+sudo apt install rancher-desktop -y
 
 # https://github.com/casey/just
 rm -rf ~/.local/bin/just

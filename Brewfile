@@ -37,6 +37,9 @@ brew "xq"
 # https://pre-commit.com/
 brew "pre-commit"
 
+# golang
+brew "go"
+
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 
