@@ -40,6 +40,9 @@ brew "pre-commit"
 # golang
 brew "go"
 
+# https://golangci-lint.run/welcome/install/
+brew "golangci-lint"
+
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 

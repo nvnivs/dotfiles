@@ -50,6 +50,9 @@ sudo add-apt-repository ppa:longsleep/golang-backports -y
 sudo apt update
 sudo apt install golang-go -y
 
+# https://golangci-lint.run/welcome/install/
+curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.61.0
+
 # https://www.digitalocean.com/community/tutorials/install-chrome-on-linux-mint
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
