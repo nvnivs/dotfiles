@@ -48,6 +48,7 @@ cask "iterm2"
 
 # https://github.com/microsoft/vscode
 cask "visual-studio-code"
+vscode "bierner.emojisense"
 vscode "ms-vscode-remote.remote-containers"
 
 # https://rancherdesktop.io/
