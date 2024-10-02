@@ -46,9 +46,6 @@ brew "golangci-lint"
 # https://github.com/gnachman/iTerm2
 cask "iterm2"
 
-# https://github.com/rxhanson/Rectangle
-cask "rectangle"
-
 # https://github.com/microsoft/vscode
 cask "visual-studio-code"
 vscode "bierner.emojisense"
